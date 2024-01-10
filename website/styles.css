@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background-container {
+    background-image: url('back6.jpeg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    color: white;
+    overflow-y: scroll; /* Allow scrolling */
+  }
+  
+  .header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.15); /* Transparency for header */
+  }
+  
+
+  .common-dark-patterns{color: black;}
+
+.common-dark-patterns:visited:visited {
+    color: white; /* Change this to the desired color for visited links */
+  }
+  
+  .common-dark-patterns:active {
+    color: white; /* Change this to the desired color for active links (clicked) */
+  }
+
+  h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .caption {
+    font-size: 1.2em;
+    opacity: 0.85; /* Increased opacity */
+  }
+  
+  .content-section {
+    background-color: rgba(75, 73, 73, 0.15); /* Transparency for content sections */
+    padding: 20px;
+    margin-top: 0;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: white;
+  }
+  .task-bar {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%; /* Set width to 100% to span the entire viewport */
+    z-index: 1;
+  }
+  
+  
+  #search {
+    padding: 5px;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+  }
+  
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul li {
+    font-weight: bold;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
