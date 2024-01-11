@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Checkbox Info Extension",
+  "version": "1.0",
+  "description": "Get information about ticked checkboxes on a webpage.",
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
